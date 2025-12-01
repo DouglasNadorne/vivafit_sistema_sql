@@ -1,8 +1,3 @@
-# vivafit_sistema_sqlÓtima pergunta! O arquivo README.md é o cartão de visitas do seu repositório no GitHub. Ele é fundamental para a sua avaliação na Experiência Prática IV, pois deve guiar o avaliador sobre o que é o projeto e, principalmente, como ele deve ser executado.
-
-Aqui está um modelo completo e estruturado que você pode usar, seguindo o contexto do projeto VivaFit e os requisitos da entrega:
-
-📚 README.md
 Sistema de Gestão para Academia 'VivaFit' (Experiência Prática IV)
 Este repositório contém os scripts SQL (DDL e DML) para a implementação e manipulação de dados do Modelo Lógico da Academia VivaFit, desenvolvido na disciplina de Modelagem de Banco de Dados.
 
@@ -27,11 +22,12 @@ AulaColetiva, InscricaoAula (N:N).
 📂 Estrutura do Repositório
 Os scripts estão organizados numericamente dentro da pasta scripts/ para garantir a correta ordem de execução:
 
-Arquivo,Conteúdo (DDL/DML),Objetivo
-01_create_tables.sql,DDL (Data Definition Language),Criação de todas as 10 tabelas e definição de PKs/FKs (Modelo Físico). Primeiro script a ser executado.
-02_insert_data.sql,DML (Data Manipulation Language),"Popula as tabelas com dados de exemplo (Alunos, Planos, Matrículas, etc.)."
-03_select_queries.sql,DML (Consultas),"Contém 5 consultas complexas utilizando JOIN, WHERE, ORDER BY, GROUP BY e SUM."
-04_update_delete.sql,DML (Modificação),Contém 3 comandos UPDATE e 3 comandos DELETE condicionais para manipulação e manutenção da integridade.
+Arquivo,Conteúdo
+01_create_tables.sql. Primeiro script a ser executado.
+02_insert_data.sql.
+03_select_queries.sql.
+04_update_delete.sql.
+
 
 Instruções de Execução
 Siga a ordem abaixo para recriar o banco de dados vivafit:
